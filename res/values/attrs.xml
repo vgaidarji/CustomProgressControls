@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleRoadProgressWidget">
+        <attr name="circleCenterPointX" format="float"/>
+        <attr name="circleCenterPointY" format="float"/>
+
+        <attr name="roadColor" format="color"/>
+        <attr name="roadStrokeWidth" format="float"/>
+        <attr name="roadRadius" format="float"/>
+
+        <attr name="roadInnerCircleColor" format="color"/>
+        <attr name="roadInnerCircleStrokeWidth" format="float"/>
+        <attr name="roadInnerCircleRadius" format="float"/>
+
+        <attr name="roadOuterCircleColor" format="color"/>
+        <attr name="roadOuterCircleStrokeWidth" format="float"/>
+        <attr name="roadOuterCircleRadius" format="float"/>
+
+        <attr name="arcLoadingColor" format="color"/>
+        <attr name="arcLoadingStrokeWidth" format="float"/>
+        <attr name="arcLoadingDashLength" format="float"/>
+        <attr name="arcLoadingDistanceBetweenDashes" format="float"/>
+        <attr name="arcLoadingStartAngle" format="float"/>
+
+        <attr name="textLocationX" format="float"/>
+        <attr name="textLocationY" format="float"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="float"/>
+    </declare-styleable>
+
+</resources>

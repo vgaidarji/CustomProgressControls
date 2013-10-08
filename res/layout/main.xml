@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res/com.donvigo.CustomProgressControls"
+                android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/darker_gray">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+        <com.donvigo.CustomProgressControls.UI.CircleRoadProgress
+              android:layout_width="150dp"
+              android:layout_height="150dp"
+              android:id="@+id/circleProgress"
+              android:layout_centerHorizontal="true"
+              android:layout_alignParentBottom="true"
+              custom:roadColor="#575757"
+              custom:roadStrokeWidth="60"
+              custom:roadInnerCircleColor="#ffffff"
+              custom:roadInnerCircleStrokeWidth="4"
+              custom:roadOuterCircleColor="#ffffff"
+              custom:roadOuterCircleStrokeWidth="4"
+              custom:arcLoadingColor="#f5d600"
+              custom:arcLoadingStrokeWidth="5"
+              custom:arcLoadingDashLength="10"
+              custom:arcLoadingDistanceBetweenDashes="5"
+              custom:arcLoadingStartAngle="270"
+              custom:textColor="#ffffff"
+              custom:textSize="48"/>
+    </LinearLayout>
+</RelativeLayout>
+
