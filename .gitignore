@@ -9,8 +9,12 @@
 *.class
 
 # generated files
+.DS_Store
 bin/
 gen/
+build/
+.gradle/
+.gralde/*
 
 # Local configuration file (sdk path, etc)
 local.properties

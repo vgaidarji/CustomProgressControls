@@ -1,8 +1,8 @@
-package com.donvigo.CustomProgressControls;
+package com.vgaidarji.CustomProgressControls;
 
 import android.app.Activity;
 import android.os.Bundle;
-import com.donvigo.CustomProgressControls.UI.CircleRoadProgress;
+import com.vgaidarji.CustomProgressControls.UI.CircleRoadProgress;
 
 public class MainActivity extends Activity {
 
@@ -28,8 +28,8 @@ public class MainActivity extends Activity {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    percent += 10;
-                    if(percent == 110)
+                    percent += 1;
+                    if(percent == 100)
                         percent = 0;
                     circleProgress.changePercentage(percent);
                 }

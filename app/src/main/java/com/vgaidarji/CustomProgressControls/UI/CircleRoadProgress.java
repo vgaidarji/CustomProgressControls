@@ -1,12 +1,16 @@
-package com.donvigo.CustomProgressControls.UI;
+package com.vgaidarji.CustomProgressControls.UI;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.graphics.*;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.DashPathEffect;
+import android.graphics.Paint;
+import android.graphics.RectF;
 import android.os.Handler;
 import android.util.AttributeSet;
 import android.view.View;
-import com.donvigo.CustomProgressControls.R;
+import com.vgaidarji.CustomProgressControls.R;
 
 public class CircleRoadProgress extends View {
     private float circleCenterPointX;
